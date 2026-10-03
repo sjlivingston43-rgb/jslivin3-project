@@ -71,3 +71,51 @@ footer {
 footer a {
     color: white;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5em;
+}
+
+th, td {
+    border: 1px solid #2f5d48;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2f5d48;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e8f0ec;
+}
+
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="submit"] {
+    width: auto;
+    margin-top: 1em;
+    padding: 8px 16px;
+}
